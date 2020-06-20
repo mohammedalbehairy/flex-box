@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 599px;
+}
+
+header,
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.content {
+    background: green;
+    flex-grow: 1;
+    order: 2;
+}
+
+.sidebar {
+    background: blue;
+    flex-grow: 1;
+    order: 1;
+}
+
+.links {
+    background: red;
+    flex-grow: 1;
+    order: 3;
+}
