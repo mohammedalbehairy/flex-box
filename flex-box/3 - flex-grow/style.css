@@ -1,0 +1,32 @@
+             body {
+                 background-color: gray;
+             }
+
+             .content {
+                 max-width: 1200px;
+                 margin: auto;
+             }
+
+             .flex-container {
+                 background-color: white;
+                 width: 100%;
+                 display: flex;
+                 flex-grow: 1;
+             }
+
+             .item {
+                 min-width: 120px;
+                 height: 100px;
+             }
+
+             .first {
+                 background-color: rgb(202, 135, 34);
+             }
+
+             .second {
+                 background-color: rgb(151, 43, 106);
+             }
+
+             .third {
+                 background-color: rgb(51, 129, 180);
+             }
